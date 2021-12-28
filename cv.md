@@ -6,7 +6,7 @@
 - **Location:** Minsk, Belarus
 - **Discord:** Olga Gotovtseva (@G-o-T)
 
-##About me\
+##About me     
 I'm a lawyer who is fed up with ordinary paper work and try to find some new sphere. Several month ago I was forced to create [site](http://fluidart.by/) for my hobby (fluid art painting) and fell in love with code. That's why I'm going to become Front-end Developer.
 
 ##Skills
@@ -30,7 +30,7 @@ shortLink();
 ```
 ##Courses
 - RS School "JavaScript/Front-end. Stage 0" (in progress)
-- Code Basics(https://ru.code-basics.com) "HTML" & "CSS"
+- [Code Basics](https://ru.code-basics.com) "HTML" & "CSS"
 - DesignSpot School 2020
 
 ##Languages
