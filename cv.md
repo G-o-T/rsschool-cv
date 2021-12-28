@@ -28,3 +28,12 @@ let shortLink = () => {
 
 shortLink();
 ```
+##Courses
+- RS School "JavaScript/Front-end. Stage 0" (in progress)
+- Code Basics(https://ru.code-basics.com) "HTML" & "CSS"
+- DesignSpot School 2020
+
+##Languages
+- Russian (native)
+- Belorussian
+- English (B1)
