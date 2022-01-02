@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>CV Gotovtseva</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__title">
+            <h1 class="header-title">
+              Olga
+              Gotovtseva
+            </h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav__item"><a href="#about" class="nav-link">About me</a></li>
+              <li class="nav__item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav__item"><a href="#languages" class="nav-link">Languages</a></li>
+              <li class="nav__item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav__item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav__item"><a href="#project" class="nav-link">Project</a></li>
+              <li class="nav__item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="info">
+          <div class="info__row">
+            <figure class="avatar">
+              <img src="./assets/img/photo_avatar.jpg" alt="Photo" width="606" height="750">
+            </figure>
+            <div class="info-column">
+              <section class="info__desc" id="about">
+                <h2 class="section-title">
+                  About me
+                </h2>
+                <p class="section-text">
+                  I’m a lawyer who is fed up with ordinary paper work and try to find some new sphere. Several month ago I
+                  was forced
+                  to
+                  create site for my hobby (fluid art painting) and fell in love with code. That’s why I’m going to become
+                  Front-end
+                  Developer.
+                </p>
+              </section>
+              <div class="education">
+                <section class="info__desc section" id="skills">
+                  <h2 class="section-title">
+                    Skills
+                  </h2>
+                  <ul class="section-text">
+                    <li class="section__item">HTML/CSS (Basic)</li>
+                    <li class="section__item">JS (Basic)</li>
+                    <li class="section__item">Git/GitHub (Basic)</li>
+                    <li class="section__item">Photoshop</li>
+                    <li class="section__item">Figma</li>
+                  </ul>
+                </section>
+                <section class="info__desc section" id="languages">
+                  <h2 class="section-title">
+                    Languages
+                  </h2>
+                  <ul class="section-text">
+                    <li class="section__item">Russian (native)</li>
+                    <li class="section__item">Belorussian</li>
+                    <li class="section__item">English (B1)</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="info__row">
+            <div class="space">
+              <div class="space-container">
+                <h3 class="add-title">
+                  Apprentice Front&#8209;end Developer
+                </h3>
+              </div>
+            </div>
+            <section class="info__desc" id="courses">
+              <h2 class="section-title">
+                Courses
+              </h2>
+              <ul class="section-text">
+                <li class="section__years"><span class="year">2021-2022</span> RS School “JavaScript/Front-end. Stage 0”
+                  <br></li>
+                <li class="section__years"><span class="year">2021</span> Code Basics “HTML” & “CSS”</li>
+                <li class="section__years"><span class="year">2020</span> DesignSpot School "UI/UX Design"</li>
+              </ul>
+            </section>
+          </div>
+          <div class="info__row">
+            <div class="contacts">
+              <section class="info__desc" id="contacts">
+                <h2 class="section-title">
+                  Contacts
+                </h2>
+                <ul class="section-text">
+                  <li class="contacts__item"><img src="./assets/svg/gmail.svg" alt="">gotovtseva.design@gmail.com</li>
+                  <li class="contacts__item"><img src="./assets/svg/location.svg" alt="">Minsk, Belarus</li>
+                  <li class="contacts__item"><img src="./assets/svg/discord.svg" alt="">Olga Gotovtseva (@G-o-T)</li>
+                  <li class="contacts__item"><img src="./assets/svg/instagram.svg" alt=""><a
+                      href="https://www.instagram.com/gotovtseva_fluid_art/" target="_blank">gotovtseva_fluid_art</a></li>
+                </ul>
+              </section>
+            </div>
+            <div class="code_example">
+              <section class="info__desc" id="code">
+                <h2 class="section-title">
+                  Code example
+                </h2>
+                <pre>
+                      <code class="code">
+let shortLink = () => {
+
+let str = prompt("Введите ссылку на ilex");
+
+shortRegExp1 = str.match(/^.{43}\w{5,}\/\d{4,}\//);
+shortRegExp2 = str.match(/.{8}$/);
+
+let result = [shortRegExp1, shortRegExp2];
+alert(result.join(''));
+}
+
+shortLink();
+                      </code>
+                    </pre>
+              </section>
+            </div>
+          </div>
+          <div class="info__row">
+            <div class="project">
+              <section class="info__desc" id="project">
+                <h2 class="section-title">
+                  Project
+                </h2>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="project_desc">
+          <div class="project_photo">
+            <img src="./assets/img/project_photo.jpg" alt="project photo">
+            <div class="project__info">
+              <h2 class="project-title">
+                Business card website
+              </h2>
+              <p class="section-text project-text">
+                Site for my pieces of art promotion. Several content pages and carousels for art demonstration made with
+                HTML, CSS, JS
+              </p>
+              <form action="http://fluidart.by/" target="_blank">
+                <button class="project_btn">
+                  See the project
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt=""
+              width="100"></a>
+          <p class="footer__text">&copy; 2022 by Olga Gotovtseva</p>
+          <a href="https://github.com/G-o-T" target="_blank">
+            <div class="footer__link">
+              <img src="./assets/svg/github.svg" alt="" width="44" class="footer__ico">
+              <p class="footer__text">Github</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div> 
+</body>
+</html>
