@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #183141; 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.header {
+  height: 274px;
+}
+
+.header__row {
+  display: flex;
+}
+
+.header__title {
+  padding: 90px 48px 28px;
+  background: #BBA192;
+  text-transform: uppercase;
+}
+
+.header-title, .section-title, .project-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.header-title { 
+  font-size: 64px;
+  line-height: 78px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  width: 510px;
+  color: #FFFFFF;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-left: 36px;
+  line-height: 60px;
+  color: #183141;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.nav-link:hover, .nav-link:active {
+  color: #006AAD;
+}
