@@ -82,3 +82,177 @@ body {
 .nav-link:hover, .nav-link:active {
   color: #006AAD;
 }
+
+
+.info__row {
+  display: flex;
+}
+
+.info__desc {
+  margin-left: 64px;
+  margin-bottom: 120px;
+}
+
+.section-title, .project-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #006AAD;
+  margin-bottom: 28px;
+}
+
+.section-text, .project-text {
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+}
+
+.avatar {
+  height: 750px;
+}
+
+.education {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.section__item {
+  list-style-type: none;
+  }
+
+.section__item::before {
+  content: "";
+  color: #006AAD;
+  content: "▪";
+  padding-right: 10px;
+  }
+
+.space {
+  width: 606px;
+  display: flex;
+  background: #BBA192;
+  justify-content: flex-end;
+}
+
+.space-container {
+  display: flex;
+  margin-right: 48px;
+  width: 350px;
+}
+
+.add-title {  
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-top: 28px;
+  text-align: right;
+}
+
+.section__years {
+  list-style-type: none;
+}
+
+.year {
+  color: #006AAD;
+  padding-right: 10px;
+}
+
+.contacts, .project {
+  background: #BBA192;
+  width: 606px;
+  display: flex;
+  background: #BBA192;
+  justify-content: flex-start;
+}
+
+.contacts .section-title, .contacts__item, .contacts__item a, .project .section-title {
+  color: #fff;
+}
+
+.contacts__item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.contacts__item img {
+  padding-right: 16px;
+  line-height: 100%;
+}
+
+.code_example {
+  flex-grow: 1;
+}
+
+.pre {
+  max-height: auto;
+}
+
+.code {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  background: #183141;
+  padding: 0 28px;
+}
+
+.project_desc {
+  position: relative;
+  /* margin-bottom: 120px; */
+}
+
+.project .info__desc{
+  margin-bottom: 0;
+}
+
+.project_photo::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 106, 173, 0.7);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.project-title, .project-text {
+  color: #fff;
+}
+
+.project__info {
+  position: absolute;
+  bottom: 64px;
+  right: 64px;
+  z-index: 3;
+  width: 640px;
+  text-align: right;
+}
+
+.project_btn {
+  background: #fff;
+  color: #006AAD;
+  font-weight: 700;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  border: 0;
+  padding: 20px 25px;
+  margin-top: 56px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.project_btn:hover {
+  filter: drop-shadow(0px 4px 16px rgba(255, 255, 255, 0.25));
+}
